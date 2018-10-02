@@ -49,3 +49,6 @@ State
 - https://jsbin.com/woweqalucu/1/edit?html,css,js,output
 - https://jsbin.com/namukikixu/1/edit?html,css,js,output
 
+Weather App
+
+  - https://medium.com/@peterekeneeze/build-a-react-js-weather-app-with-stateless-functional-components-e61567004b54
