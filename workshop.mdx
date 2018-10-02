@@ -28,7 +28,7 @@ product manager @ Citrix
 
 <CodeSurfer
     title="What we could do back in the olden days"
-    notes="Still can do now"
+    notes="Still can do this now"
     code={require("!raw-loader!./snippets/rawhtml.html")}
     lang="html"
 /> 
@@ -73,7 +73,7 @@ Then Node.JS comes out
 
 ---
 
-## What JS could do now
+## What JS could do now in `currentYear`
 
 <ul>
   <Appear>
@@ -211,10 +211,53 @@ Now websites would be pretty boring without
 You already know what I am going to ask you.
 ```
 ---
-
+So far, we've used React as a static rendering engine. Now, we're going to add
 
 # State
 
+to make our React components more dynamic.
 ---
 
 <Counter/>
+
+---
+
+<CodeSurfer
+  title="Understanding the counter"
+  notes="Grokking time"
+  code={require("!raw-loader!./snippets/state.js")}
+  steps={[
+    { range: [1, 6], notes: "First, we name the component and set state" },
+    { range: [8, 13], notes: "Be mindful that state is just a variable that we manipulate as needed with events" },
+    { range: [14, 27], notes: "We can pass in state as a prop, and apply events to most elements" },
+    { lines: [17, 20], notes: "This is what makes this demo do things" },
+    { range: [1, 32], notes: "➡️" }
+  ]}
+/>
+
+---
+
+### Cool thing to note
+When a component's state changes, render is called with the new state and the UI is updated to the new output. This is the heart of React. We'll take a closer look later.
+
+---
+
+```
+AAAAAAAAAAAAAAAAAAAAAAA
+```
+
+---
+
+Fun Project Time
+
+If we have time ofc
+
+---
+
+# Thank You!
+
+#### Happy Hacking :)
+
+### email@ngelo.xyz
+
+### @ndneighbor
