@@ -1,0 +1,30 @@
+{
+  "name": "acm-react-workshop",
+  "version": "1.0.0",
+  "description": "The react workshop for today's working professional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "mdx-deck workshop.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiuacm/react-workshop.git"
+  },
+  "keywords": [
+    "millenial"
+  ],
+  "author": "Angelo Saraceno <email@ngelo.xyz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiuacm/react-workshop/issues"
+  },
+  "homepage": "https://github.com/fiuacm/react-workshop#readme",
+  "devDependencies": {
+    "mdx-deck": "^1.7.7"
+  },
+  "dependencies": {
+    "mdx-deck-code-surfer": "^0.4.1",
+    "raw-loader": "^0.5.1"
+  }
+}

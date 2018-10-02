@@ -1,0 +1,139 @@
+import { CodeSurfer } from "mdx-deck-code-surfer"
+import { Appear } from 'mdx-deck'
+import { Head } from 'mdx-deck'
+
+
+# React Workshop 
+
+# New 2018 Edition
+
+Now with added jokes.
+
+---
+
+# Hi! I am Angelo.
+
+Failed standup comedian, father
+
+product manager @ Citrix
+
+---
+
+# An Abridged History of Web Development and Why It Used to Suck
+
+---
+
+![1995][geocities]
+
+[geocities]:https://thenetstorian.files.wordpress.com/2016/03/tumblr_mv2ar0gc0w1rlkewbo1_1280.png?w=840
+
+---
+
+<CodeSurfer
+    title="What we could do back in the olden days"
+    notes="Nice right?"
+    code={require("!raw-loader!./snippets/rawhtml.html")}
+    lang="html"
+/> 
+
+---
+
+Then this thing called JavaScript came around.
+
+
+---
+
+![2005][myspace]
+
+[myspace]:http://cdn.instantshift.com/wp-content/uploads/2015/07/unconventional-ways-to-learn-web-design-01-large.jpg
+
+---
+## What JS could do in 2007
+
+<ul>
+  <Appear>
+    <li>Do cool animations</li>
+    <li>Call some server code</li>
+    <li>Type errors</li>
+  </Appear>
+</ul>
+
+---
+
+<CodeSurfer
+    notes="Nice right?"
+    code={require("!raw-loader!./snippets/rawjs.js")}
+    lang="javascript"
+/>
+
+---
+
+Then Node.JS comes out
+
+---
+
+## What JS could do now
+
+<ul>
+  <Appear>
+          <li>everything</li>
+  </Appear>
+</ul>
+
+---
+
+Okay- now to the good stuff.
+
+---
+
+## What is React?
+
+---
+
+## React is...
+
+a JS library that makes it easier to make front-ends. 
+
+It handles what we call 'the View layer' which is everything we see in a web application. 
+
+---
+
+# Before React
+
+- Needed to write HTML templates
+- Coupled business logic with view logic
+- Other frameworks were very opinionated 
+
+---
+<CodeSurfer
+    notes="Hello World Before React"
+    code={require("!raw-loader!./snippets/jshelloworld.js")}
+    lang="javascript"
+    steps={[
+    { lines: [1, 2, 3, 5], notes: "all this" },
+    { lines: [6], notes: "just so you can say Hi" }
+  ]}
+/>
+
+---
+### Output
+
+<p>Hello World</p>
+
+---
+
+# With React
+
+- No need to manually manipulate the DOM
+- Easier to write reusable code (Components)
+- declarative, efficient, and flexible 
+
+---
+<CodeSurfer
+    notes="Hello World With React"
+    code={require("!raw-loader!./snippets/reacthelloworld.js")}
+    lang="javascript"
+    steps={[
+    { lines: [2], notes: "JSX in action" }
+  ]}
+/>
