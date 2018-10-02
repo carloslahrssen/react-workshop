@@ -37,7 +37,7 @@ JSX
 
 Components
 - http://jsbin.com/jigokumoji/1/edit?html,js,output
-- http://jsbin.com/ceyicizowu/1/embed?js,output
+- http://jsbin.com/ceyicizowu/1/
 
 Events
 
