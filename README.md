@@ -8,7 +8,7 @@ This is the React workshop given at the ACM workshop on 10/2/2018, in this repo 
 
 This is a React tutorial designed to have slides and code samples built into the presentation while allowing the attandees to pair code along with the instructor on a cloud IDE. We will be using Stackblitz, there will be Incomplete/Complete pairings of each lesson to facilitate each lesson.
 
-This workshop will assume rudimentary knowledge of HTML/CSS/JS but is not nesissary to get something out of this woprkshop.
+This workshop will assume rudimentary knowledge of HTML/CSS/JS but is not nesissary to get something out of this workshop.
 
 This repo contains 3 folders
 
@@ -22,7 +22,7 @@ This repo contains 3 folders
 
 If you want to present and run the code samples on your computer.
 
-In project root or `sample-app` run the following commands
+In project root or in the `sample-app` directory run the following commands
 
 ```bash
 npm install
