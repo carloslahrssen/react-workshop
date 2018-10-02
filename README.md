@@ -6,7 +6,7 @@ This is the React workshop given at the ACM workshop on 10/2/2018, in this repo 
 
 ## Objective
 
-This is a React tutorial designed to have slides and code samples built into the presentation while allowing the attandees to pair code along with the instructor on a cloud IDE. We will be using Stackblitz, there will be Incomplete/Complete pairings of each lesson to facilitate each lesson.
+This is a React tutorial designed to have slides and code samples built into the presentation while allowing the attandees to pair code along with the instructor on a cloud IDE. We will be using JSedit, there will be Incomplete/Complete pairings of each lesson to facilitate each lesson.
 
 This workshop will assume rudimentary knowledge of HTML/CSS/JS but is not nesissary to get something out of this workshop.
 
@@ -28,4 +28,24 @@ In project root or in the `sample-app` directory run the following commands
 npm install
 npm start
 ```
+
+## Exercize Links
+
+JSX
+- https://jsbin.com/qucecahako/1/edit?html,css,js,output
+- https://jsbin.com/maxobehegi/1/edit?html,css,js,output
+
+Components
+- http://jsbin.com/jigokumoji/1/edit?html,js,output
+- http://jsbin.com/ceyicizowu/1/embed?js,output
+
+Events
+
+- https://jsbin.com/wibofujopu/1/edit?html,css,js,output
+- https://jsbin.com/yayatucowu/1/edit?html,css,js,output
+
+State
+
+- https://jsbin.com/woweqalucu/1/edit?html,css,js,output
+- https://jsbin.com/namukikixu/1/edit?html,css,js,output
 
