@@ -1,7 +1,7 @@
 import { CodeSurfer } from "mdx-deck-code-surfer"
 import { Appear } from 'mdx-deck'
 import { Head } from 'mdx-deck'
-
+import Counter from './snippets/Counter'
 
 # React Workshop 
 
@@ -19,8 +19,19 @@ product manager @ Citrix
 
 ---
 
-# An Abridged History of Web Development and Why It Used to Suck
+# An Abridged History of Web Development 
+# &
+# Why It Used to Suck
 
+
+---
+
+<CodeSurfer
+    title="What we could do back in the olden days"
+    notes="Still can do now"
+    code={require("!raw-loader!./snippets/rawhtml.html")}
+    lang="html"
+/> 
 ---
 
 ![1995][geocities]
@@ -29,17 +40,7 @@ product manager @ Citrix
 
 ---
 
-<CodeSurfer
-    title="What we could do back in the olden days"
-    notes="Nice right?"
-    code={require("!raw-loader!./snippets/rawhtml.html")}
-    lang="html"
-/> 
-
----
-
 Then this thing called JavaScript came around.
-
 
 ---
 
@@ -137,3 +138,83 @@ It handles what we call 'the View layer' which is everything we see in a web app
     { lines: [2], notes: "JSX in action" }
   ]}
 />
+---
+
+React's Secret Sauce
+
+---
+
+# JSX
+
+---
+<CodeSurfer
+    notes="JSX Before Compilation"
+    code={require("!raw-loader!./snippets/jsxprecomp.js")}
+    lang="javascript"
+    steps={[
+    { lines: [4,5,6,7,8], notes: "JS Object Detected" },
+    { lines: [11], notes: "Notice how we pass the object?" }
+    ]
+  }
+/>
+---
+<CodeSurfer
+    notes="Look ma! A element for every JSX tag we used"
+    code={require("!raw-loader!./snippets/jsxpostcomp.js")}
+    lang="javascript"
+/>
+---
+```
+Lets do a thing that drives this concept home.
+```
+---
+Why React is Objectively Awesome
+---
+We can turn those "small", "isolated" pieces of code that we wrote before into reuseable snippets called 
+
+# Components
+---
+
+<CodeSurfer
+    notes="Now we dont have to repeat ourselves"
+    code={require("!raw-loader!./snippets/componentnaive.js")}
+    lang="javascript"
+    steps={[
+    { lines: [1, 2], notes: "Going to create a Component called MessageComponent" },
+    { lines: [3, 4, 5, 6], notes: "Notice how we pass an object again?" },
+    { lines: [5, 12], notes: "We call this passing the data that is passed into components, Props" },
+    { lines: [11, 12, 13, 14], notes: "The best part" }
+    ]}
+    
+/>
+
+---
+```
+Lets do a thing that drives this concept home.
+```
+---
+Now websites would be pretty boring without
+# Events
+
+---
+<CodeSurfer
+    notes="Secret Facebook AD code"
+    code={require("!raw-loader!./snippets/eventexample.js")}
+    lang="javascript"
+    steps={[
+    { lines: [1, 2, 3, 4], notes: "In our component, we have a function that makes us cash money" },
+    { lines: [1, 2, 3, 4, 8], notes: "When we click it, we get data, Senator" }
+        ]}
+/>
+---
+```
+You already know what I am going to ask you.
+```
+---
+
+
+# State
+
+---
+
+<Counter/>
