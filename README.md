@@ -6,7 +6,7 @@ This is the React workshop given at the ACM workshop on 10/2/2018, in this repo 
 
 ## Objective
 
-This is a React tutorial designed to have slides and code samples built into the presentation while allowing the attandees to pair code along with the instructor on a cloud IDE. We will be using JSedit, there will be Incomplete/Complete pairings of each lesson to facilitate each lesson.
+This is a React tutorial designed to have slides and code samples built into the presentation while allowing the attendees to pair code along with the instructor on a cloud IDE. We will be using JSedit, there will be Incomplete/Complete pairings of each lesson to facilitate each lesson.
 
 This workshop will assume rudimentary knowledge of HTML/CSS/JS but is not nesissary to get something out of this workshop.
 
