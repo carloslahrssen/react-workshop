@@ -2,7 +2,7 @@
 
 The all new 2018 tutorial for today's working professional. 
 
-This is the React workshop given at the ACM workshop on 10/2/2018, in this repo I hope to provide resources to prospective instructors and participants to teach/learn about JSX, Components, Events, and Props. That will be satisfactory to get attendees to get started on wokring on their own sample app.
+This is the React workshop given at the ACM workshop on 10/2/2018, in this repo I hope to provide resources to prospective instructors and participants to teach/learn about JSX, Components, Events, and Props. That will be satisfactory to get attendees to get started on working on their own sample app.
 
 ## Objective
 
